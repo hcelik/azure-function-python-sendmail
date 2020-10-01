@@ -11,4 +11,10 @@ Sending email through an Azure Function with Python and SMTP Server
     smtp_port = 587<br/>
     smtp_user = sender@contoso.com<br/>
     smtp_pass = P@ssw0rd123 (Password of sender@contoso.com)<br/>
+<br/>
+<br/>
+
+To test the api :<br/>
+    URL : https://{{AZURE FUNCTION URI}}/api/sendmail<br/>
+    BODY : {"sec_form":"A STRING","firstname":"A STRING","lastname":"A STRING","phone":"A STRING","email":"A STRING","message":"A STRING"}
 
